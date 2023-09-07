@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+main {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    background-color: aquamarine;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+}
+
+#products {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
+}
+
+#title1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    margin-top: 14%;
+}
+
+#title2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    margin-top: 14%;
+}
+
+#title3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    margin-top: 14%;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    color: rgb(243, 243, 243);
+    letter-spacing: 0px;
+    line-height: 1.6;
+    margin-top: 15%;
+    font-size: 15px;
+    
+}
+
+#container1 {
+    width: 300px;
+    height: 500px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+#conteúdo1 {
+    
+    width: 240px;
+    max-width: 100%;
+    padding: 30px 9px;
+    color: white;
+    height: 440px;
+    max-height: 100%;
+    margin-left: 13%;
+}
+
+#container2 {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 300px;
+    height: 500px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+#conteúdo2 {
+    width: 240px;
+    max-width: 100%;
+    padding: 30px 9px;
+    color: white;
+    height: 440px;
+    max-height: 100%;
+    margin-left: 13%;
+}
+
+#container3 {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 300px;
+    height: 500px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+#conteúdo3 {
+    width: 240px;
+    max-width: 100%;
+    padding: 30px 9px;
+    color: white;
+    height: 440px;
+    max-height: 100%;
+    margin-left: 13%;
+}
+
+#botao1 {
+    margin-top: 27%;
+    width: 134px;
+    height: 44px;
+    border-radius: 25px;
+    border:none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+
+}
+
+#botao2 {
+    margin-top: 27%;
+    width: 134px;
+    height: 44px;
+    border-radius: 25px;
+    border:none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+}
+
+#botao3 {
+    margin-top: 27%;
+    width: 134px;
+    height: 44px;
+    border-radius: 25px;
+    border:none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+}
+
+img {
+    margin-top: 8%;
+}
